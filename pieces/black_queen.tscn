@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhjhu8wl1inws"]
+
+[ext_resource type="Texture2D" uid="uid://ctrabrvwsbyi4" path="res://assets/chess_spritesheet.png" id="1_7ijii"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_at5v0"]
+atlas = ExtResource("1_7ijii")
+region = Rect2(222.645, 332.366, 171.585, 389.88)
+
+[node name="BlackQueen" type="MarginContainer"]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 50.431
+offset_bottom = 75.0
+theme_override_constants/margin_left = 29
+theme_override_constants/margin_top = 23
+theme_override_constants/margin_right = 29
+theme_override_constants/margin_bottom = 15
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = SubResource("AtlasTexture_at5v0")
+expand_mode = 3
+stretch_mode = 5

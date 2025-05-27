@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dufvxa3g01l64"]
+
+[ext_resource type="Texture2D" uid="uid://ctrabrvwsbyi4" path="res://assets/chess_spritesheet.png" id="1_ir8j7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_at5v0"]
+atlas = ExtResource("1_ir8j7")
+region = Rect2(662.322, 0, 157.595, 329.503)
+
+[node name="WhiteBishop" type="MarginContainer"]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 50.431
+offset_bottom = 75.0
+theme_override_constants/margin_left = 29
+theme_override_constants/margin_top = 33
+theme_override_constants/margin_right = 29
+theme_override_constants/margin_bottom = 15
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = SubResource("AtlasTexture_at5v0")
+expand_mode = 3
+stretch_mode = 5
