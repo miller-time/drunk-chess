@@ -48,24 +48,31 @@ layout_mode = 2
 
 [node name="WhiteQueensKnight" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("3_h2yge")]
 layout_mode = 2
+col = 1
 
 [node name="WhiteQueensBishop" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("4_1bvp3")]
 layout_mode = 2
+col = 2
 
 [node name="WhiteKing" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("6_7mycd")]
 layout_mode = 2
+col = 3
 
 [node name="WhiteQueen" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("5_lquwl")]
 layout_mode = 2
+col = 4
 
 [node name="WhiteKingsBishop" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("4_1bvp3")]
 layout_mode = 2
+col = 5
 
 [node name="WhiteKingsKnight" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("3_h2yge")]
 layout_mode = 2
+col = 6
 
 [node name="WhiteKingsRook" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("2_0xm2m")]
 layout_mode = 2
+col = 7
 
 [node name="WhiteKingsRookPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("7_kek77")]
 layout_mode = 2
@@ -93,48 +100,78 @@ layout_mode = 2
 
 [node name="BlackKingsRookPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+row = 6
 
 [node name="BlackKingsKnightPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 1
+row = 6
 
 [node name="BlackKingsBishopPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 2
+row = 6
 
 [node name="BlackKingsPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 3
+row = 6
 
 [node name="BlackQueensPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 4
+row = 6
 
 [node name="BlackQueensBishopPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 5
+row = 6
 
 [node name="BlackQueensKnightPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 6
+row = 6
 
 [node name="BlackQueensRookPawn" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("8_4c57u")]
 layout_mode = 2
+col = 7
+row = 6
 
 [node name="BlackKingsRook" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("9_efxa6")]
 layout_mode = 2
+row = 7
 
 [node name="BlackKingsKnight" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("10_efxa6")]
 layout_mode = 2
+col = 1
+row = 7
 
 [node name="BlackKingsBishop" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("11_dg77c")]
 layout_mode = 2
+col = 2
+row = 7
 
 [node name="BlackKing" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("12_dg77c")]
 layout_mode = 2
+col = 3
+row = 7
 
 [node name="BlackQueen" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("13_ycdy4")]
 layout_mode = 2
+col = 4
+row = 7
 
 [node name="BlackQueensBishop" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("11_dg77c")]
 layout_mode = 2
+col = 5
+row = 7
 
 [node name="BlackQueensKnight" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("10_efxa6")]
 layout_mode = 2
+col = 6
+row = 7
 
 [node name="BlackQueensRook" parent="UserInterface/MarginContainer/GridContainer" instance=ExtResource("9_efxa6")]
 layout_mode = 2
+col = 7
+row = 7
