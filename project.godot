@@ -13,7 +13,7 @@ config_version=5
 config/name="Drunk Chess"
 run/main_scene="uid://cpfd25onejdxu"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://ceu6a3w7c6ywv"
 
 [editor]
 
