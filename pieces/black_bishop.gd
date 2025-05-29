@@ -13,3 +13,7 @@ func _gui_input(event: InputEvent) -> void:
 		var location = Vector2(col, row)
 		var squares = behavior.reachable_squares(col, row)
 		print("black bishop at ", location, " can move to ", squares)
+
+func set_pos(i: int, j: int):
+	col = i
+	row = j

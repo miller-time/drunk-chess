@@ -1,0 +1,42 @@
+[gd_scene load_steps=15 format=3 uid="uid://cskqvq5jshtac"]
+
+[ext_resource type="Script" uid="uid://b08yyk5h5287l" path="res://board.gd" id="1_p0ybc"]
+[ext_resource type="PackedScene" uid="uid://drddysx5tg58w" path="res://square.tscn" id="2_psm7c"]
+[ext_resource type="PackedScene" uid="uid://04f6rdi0e7yj" path="res://pieces/black_rook.tscn" id="3_8l818"]
+[ext_resource type="PackedScene" uid="uid://bf0yjl5tl0kc6" path="res://pieces/black_knight.tscn" id="4_jqgjh"]
+[ext_resource type="PackedScene" uid="uid://dfjewpv3l8nv8" path="res://pieces/black_bishop.tscn" id="5_vf5bc"]
+[ext_resource type="PackedScene" uid="uid://dhjhu8wl1inws" path="res://pieces/black_queen.tscn" id="6_mgc1s"]
+[ext_resource type="PackedScene" uid="uid://cihbt2yns0lld" path="res://pieces/black_king.tscn" id="7_rq8yp"]
+[ext_resource type="PackedScene" uid="uid://efwi4bljybd7" path="res://pieces/black_pawn.tscn" id="8_tngv2"]
+[ext_resource type="PackedScene" uid="uid://ft764wckst46" path="res://pieces/white_pawn.tscn" id="9_c4ttu"]
+[ext_resource type="PackedScene" uid="uid://6f7ynnuygbt5" path="res://pieces/white_rook.tscn" id="10_xhrpu"]
+[ext_resource type="PackedScene" uid="uid://c8ng4x2f3ofk5" path="res://pieces/white_knight.tscn" id="11_nk23n"]
+[ext_resource type="PackedScene" uid="uid://dufvxa3g01l64" path="res://pieces/white_bishop.tscn" id="12_5qf1t"]
+[ext_resource type="PackedScene" uid="uid://dtlhfsrmqvvb6" path="res://pieces/white_queen.tscn" id="13_1rang"]
+[ext_resource type="PackedScene" uid="uid://vov5ijhoj5g6" path="res://pieces/white_king.tscn" id="14_o821d"]
+
+[node name="Board" type="GridContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 3
+theme_override_constants/v_separation = 3
+columns = 8
+script = ExtResource("1_p0ybc")
+dark_square_color = Color(0.384859, 0.29111, 0.0816375, 1)
+light_square_color = Color(0.686275, 0.627451, 0.462745, 1)
+square = ExtResource("2_psm7c")
+black_rook = ExtResource("3_8l818")
+black_knight = ExtResource("4_jqgjh")
+black_bishop = ExtResource("5_vf5bc")
+black_queen = ExtResource("6_mgc1s")
+black_king = ExtResource("7_rq8yp")
+black_pawn = ExtResource("8_tngv2")
+white_pawn = ExtResource("9_c4ttu")
+white_rook = ExtResource("10_xhrpu")
+white_knight = ExtResource("11_nk23n")
+white_bishop = ExtResource("12_5qf1t")
+white_queen = ExtResource("13_1rang")
+white_king = ExtResource("14_o821d")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://drddysx5tg58w"]
+
+[ext_resource type="Script" uid="uid://dhwwhpqo60yhf" path="res://square.gd" id="1_2eeqm"]
+
+[node name="Square" type="ColorRect"]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_2eeqm")
